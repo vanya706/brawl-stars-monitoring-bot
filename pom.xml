@@ -21,7 +21,6 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <telegram-spring-boot-starter.version>0.26</telegram-spring-boot-starter.version>
     </properties>
 
     <repositories>
@@ -64,7 +63,7 @@
         <dependency>
             <groupId>com.github.xabgesagtx</groupId>
             <artifactId>telegram-spring-boot-starter</artifactId>
-            <version>${telegram-spring-boot-starter.version}</version>
+            <version>0.26</version>
         </dependency>
 
         <dependency>
