@@ -1,3 +1,8 @@
 bot:
   name: ${BOT_NAME}
   token: ${BOT_TOKEN}
+
+client:
+  brawlStars:
+    url: ${BRAWL_STARS_URL:https://api.brawlstars.com/v1/}
+    apiKey: ${BRAWL_STARS_API_KEY}
