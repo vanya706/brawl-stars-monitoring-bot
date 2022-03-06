@@ -48,6 +48,7 @@ public class BrawlStarsMonitoringBot extends TelegramLongPollingBot {
 
   public void executeWithExceptionCheck(SendMessage sendMessage) {
     try {
+      log.info(sendMessage.toString());
       execute(sendMessage);
     } catch (TelegramApiException e) {
       log.error(e.getMessage(), e);
