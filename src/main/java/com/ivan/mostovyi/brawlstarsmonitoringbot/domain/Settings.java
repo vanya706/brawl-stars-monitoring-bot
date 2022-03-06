@@ -17,9 +17,7 @@ import javax.persistence.Id;
 public class Settings {
 
   @Id
-  @Column(nullable = false, updatable = false, length = 40)
-  @GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "UUID")
-  @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+  @Column(nullable = false, updatable = false)
   private String chatId;
 
   private String clubTag;
